@@ -1,6 +1,6 @@
 # Вступление
 
-Блокчейн это технология, протокол. 
+Блокчейн. 
 
 Существует white paper в которой описано, каким образом могут производиться p2p транзакции (или общение на самом деле) в децентрализованной сети.
 
@@ -29,5 +29,45 @@ dapp = decentralized application = decentralized protocol = smart contract
 
 
 unbreakable agreements and promises
+нерушимые соглашения и обещания
 
-test
+Если контракт развёрнут
+- не может быть изменен
+- автоматически выполняется
+- любой может увидеть правила соглашения
+
+
+
+Uniswap. Помогает свапать erc20 токены. Они в каком то смысле эквивалентны акциям. 
+
+# Фичи:
+
+1. Децентрализация
+2. прозрачность и гибкость(transparency & flexibility)
+3. скорость и эффективность
+4. защищенные и неизменяемые
+5. устранение рисков контрагентов
+
+
+DeFi - децентрализованные финансы
+DAOs - организации, управляемые смарт-контрактами on chain
+NFTs - не взаимозаменяемый токен
+
+https://faucets.chain.link/ - получить токены почти на любую сеть
+
+https://github.com/smartcontractkit/full-blockchain-solidity-course-js - гит курса
+
+https://sepolia.etherscan.io/ - проверка транзакций (sepolia)
+
+
+
+# Gas introduction
+
+Майнеры или валидаторы получают крипто за процесс проведения транзакций.
+
+
+Gas - unit of computational measurement
+
+the more complex your transaction is the more gas you have to pay
+
+
