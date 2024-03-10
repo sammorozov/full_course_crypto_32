@@ -147,5 +147,68 @@ EVM - is a standandard of how to deploy smart-contracts to eth blockchain
 the easiest way to deploy - choose testnet in web remix ide, connect metamask and deploy.
 
 
+# Interacting
+
+Contracts interacting with each other is imp part of dev.
+
+Важно соблюдать версионность контрактов
+
+
+
+
+
+ABI - application binary interface
+
+Example:
+
+``` json
+[
+	{
+		"inputs": [],
+		"name": "createSimpleStorageContact",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "_simpleStorageIndex",
+				"type": "uint256"
+			},
+			{
+				"internalType": "uint256",
+				"name": "_simpleStorageNumber",
+				"type": "uint256"
+			}
+		],
+		"name": "sfStore",
+		"outputs": [],
+		"stateMutability": "nonpayable",
+		"type": "function"
+	},
+	{
+		"inputs": [
+			{
+				"internalType": "uint256",
+				"name": "",
+				"type": "uint256"
+			}
+		],
+		"name": "simpleStorageArray",
+		"outputs": [
+			{
+				"internalType": "contract SimpleStorage",
+				"name": "",
+				"type": "address"
+			}
+		],
+		"stateMutability": "view",
+		"type": "function"
+	}
+]
+```
+
 
 
