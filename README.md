@@ -71,3 +71,31 @@ Gas - unit of computational measurement
 the more complex your transaction is the more gas you have to pay
 
 
+Mining - the process of finding the 'solution' to the blockchain 'problem' (finding special hash to bruteforce nonce)
+
+
+Block: - list of transactions mined together
+
+
+# Signing Transactions
+
+private key for signing transactions
+
+
+# High level of understanding ...
+
+Node - single instance in a decentralized network
+
+Consensus is the mechanism used to agree on the state of a blockchain
+
+
+Proof of work - mining
+and guys are miners
+
+Proof of stake
+and guys are validators
+
+POS - randomly choose to propose the new block and then the rest of the validators will validate if that node has proposed the block
+
+# Sharding
+the mean is: blockchain of blockchains
