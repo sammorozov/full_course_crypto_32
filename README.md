@@ -99,3 +99,4 @@ POS - randomly choose to propose the new block and then the rest of the validato
 
 # Sharding
 the mean is: blockchain of blockchains
+    
