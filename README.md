@@ -134,3 +134,18 @@ memory нужна для масивов, мапингов итд для
 
 # Mapping
 
+example:
+```
+    mapping (string => uint256) public nameToFavNum;
+```
+
+
+# How to deploy to testnet??
+
+EVM - is a standandard of how to deploy smart-contracts to eth blockchain
+
+the easiest way to deploy - choose testnet in web remix ide, connect metamask and deploy.
+
+
+
+

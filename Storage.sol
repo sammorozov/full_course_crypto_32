@@ -40,7 +40,10 @@ contract Storage{
     function addPerson(string memory _name, uint256 _favoriteNumber) public{
         people.push(People(_favoriteNumber, _name));
         nameToFavNum[_name] = _favoriteNumber;
-    }
+    } 
+
+    
+
 
 
 
