@@ -99,4 +99,38 @@ POS - randomly choose to propose the new block and then the rest of the validato
 
 # Sharding
 the mean is: blockchain of blockchains
-    
+
+
+
+
+# Solidity
+
+
+Any time you change something on-chain, including making a new contract, it happens in a transaction
+
+view and pure functions disallow modification of state
+
+Мы всегда платим газ, когда модифицируем state блокчейна
+
+
+
+EVM can access and store information in six places:
+1. Stack
+2. Memory
+3. Storage
+4. CallData
+5. Code
+6. Logs
+
+```
+function addPerson(string memory _name, uint256 _favoriteNumber) public{
+        people.push(People(_favoriteNumber, _name));
+    }
+```
+memory нужна для масивов, мапингов итд для
+того, чтобы добавить их в функцию, как параметр
+
+
+
+# Mapping
+
