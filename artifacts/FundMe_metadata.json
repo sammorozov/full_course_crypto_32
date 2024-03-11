@@ -11,19 +11,6 @@
 				"outputs": [],
 				"stateMutability": "payable",
 				"type": "function"
-			},
-			{
-				"inputs": [],
-				"name": "number",
-				"outputs": [
-					{
-						"internalType": "uint256",
-						"name": "",
-						"type": "uint256"
-					}
-				],
-				"stateMutability": "view",
-				"type": "function"
 			}
 		],
 		"devdoc": {
@@ -54,11 +41,11 @@
 	},
 	"sources": {
 		"dev_web3/FreeCodeCamp/FundMe.sol": {
-			"keccak256": "0xb065ec7b77e88150e5003c761147d76acfdc903097dd18ba861f0b02092837cf",
+			"keccak256": "0xd677a9fa743ed5d3810782b86df2a045cb98e7762e8e8081e52729ae8318a8d6",
 			"license": "MIT",
 			"urls": [
-				"bzz-raw://98d96bc5d2291a6a5a3e5c903c3ca9c32f09ed09332b04977704a4e0c1f58174",
-				"dweb:/ipfs/QmPjpRkzuBCagVqxhYXgi6STWWsBzAtVeSs4wQ6EUKAquz"
+				"bzz-raw://34f69a51be5bf53997d04a9c333b482bc69a2bae86b4b1d07f11b5d88fdab3da",
+				"dweb:/ipfs/QmPNY5Fngv5LSqjDyaGayYU2Yu3Xperg8yLyTqbrSQSVsV"
 			]
 		}
 	},
