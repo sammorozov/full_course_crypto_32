@@ -1,0 +1,4 @@
+
+
+// synch [solidity]
+// asynch [js]
