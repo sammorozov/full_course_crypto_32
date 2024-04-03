@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "ethers": "^6.11.1",
     "solc": "^0.8.25"
   }
 }
